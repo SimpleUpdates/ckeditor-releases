@@ -56,7 +56,7 @@ CKEDITOR.dialog.add = function (e1,e2) {
         }
         return data;
     });
-}
+};
 // SU HACKS END
 /*
  Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
