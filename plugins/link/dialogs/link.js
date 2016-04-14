@@ -15,7 +15,7 @@ CKEDITOR.dialog.add = function (e1,e2) {
             onLoad : function( )
             {
 		var selectBox = jQuery( '#'+this.getInputElement().getId() );
-		jQuery.getJSON( "action/article/ckeditor/links", function( data ){
+		jQuery.getJSON( "action/page/sitemap", function( data ){
                     if( data.success ){
 			selectBox.append( jQuery( "<option/>" ) );
 			jQuery.each( data.links, function( key, link ) {
